@@ -124,3 +124,39 @@ footer{
     font-size: 18px;
     line-height: 1.8;
 }
+@media (max-width: 768px){
+
+    nav{
+        flex-direction: column;
+        gap: 15px;
+        padding: 20px;
+    }
+
+    nav ul{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .hero{
+        flex-direction: column;
+        text-align: center;
+        padding: 40px 20px;
+    }
+
+    .hero-text h1{
+        font-size: 40px;
+    }
+
+    .hero-image img{
+        width: 280px;
+        margin-top: 30px;
+    }
+
+    .menu{
+        padding: 40px 20px;
+    }
+
+    .about{
+        padding: 40px 20px;
+    }
+}
